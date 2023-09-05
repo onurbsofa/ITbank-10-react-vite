@@ -9,12 +9,12 @@
     padding: 0px;
 }
 .registrarse{
-    background-color: #ea6cb4;
+    background-color: #ea6cb49b;
     margin-bottom: 5px;
     padding: 9px;
     border-radius: 10px;
     color: beige;
-    box-shadow: 0px 1px 15px 1.5px beige;
+    box-shadow: 0px 1.4px 2px 1.5px beige;
 }
 .formularioLogin{
     background-color: #ff7dc7db;
