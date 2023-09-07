@@ -5,7 +5,7 @@
 
 .itbankFooter{
     display: flex;
-    margin: 5px;
+    margin: 15px;
     padding: 5px;
     justify-content: space-between;
 }
@@ -16,8 +16,9 @@
 }
 
 .redesYLegalesFooter{
-    display: flex;
+    display:flexbox;
     justify-content: center;
+    text-align: center;
 }
 .redesFooter{
     display: flex;
@@ -33,15 +34,15 @@
 }
 
 .listaLegal{
-    display: flex;
+    display: flex;  
 }
 li{
     list-style: none;
-    margin-left: 15px;
+    margin: 10px;
 }
 
 .derechosReservadosFooter{
     display: flex;
     justify-content: center;
-    padding: 5px;
+    margin-top: 5px;
 }
