@@ -1,6 +1,5 @@
 import { useState } from "react"
 import "./Login.css"
-import Footer from "../Footer/Footer";
 
 const Login = () => {
     const [nombreUsuario, setNombreUsuario] = useState();
