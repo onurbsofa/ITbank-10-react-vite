@@ -1,8 +1,10 @@
 import './SideBar.css'
+import {Link} from 'react-router-dom'
 
 export default function SideBar() {
   return (
     <div id="sidebar">
+        <Link to='/'><button>Página Principal</button></Link>
             <section id="sidebar">
             <div className="sidebar-component">
             <h3 className="component-title">nombre de usuario</h3>
@@ -11,9 +13,9 @@ export default function SideBar() {
             <div className="sidebar-component">
             <h3 className="component-title">Menú</h3>
             <ul>
-                <li><a href="../principal/principal.html"><button>Página Principal</button></a></li>
-                <li><a href="../principal/cuenta.html"><button>Mi Cuenta</button></a></li>
-                <li><a href="../formularios/formulario-transaccion.html"><button>Transferencias</button></a></li>
+                <li><Link to='/'><button>Página Principal</button></Link></li>
+                <li><Link to='/mi-cuenta'><button>Mi Cuenta</button></Link></li>
+                <li><Link to='/transferencias'><button>Transferencias</button></Link></li>
             </ul>
             </div>
             <div className="sidebar-component">
