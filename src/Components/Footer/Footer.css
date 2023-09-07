@@ -1,0 +1,47 @@
+.footer{
+    display: flexbox;
+    background-color: antiquewhite;
+}
+
+.itbankFooter{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    justify-content: space-between;
+}
+#itBankFooter, #paisFooter{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.redesYLegalesFooter{
+    display: flex;
+    justify-content: center;
+}
+.redesFooter{
+    display: flex;
+    justify-content: center;
+}
+
+#instagram, #linkedin{
+    margin-left: 20px;
+}
+.legalFooter{
+    display: flex;
+    justify-content: center;
+}
+
+.listaLegal{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-left: 15px;
+}
+
+.derechosReservadosFooter{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
