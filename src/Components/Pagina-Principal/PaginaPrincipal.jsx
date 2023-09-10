@@ -1,4 +1,4 @@
-import Footer from "../Footer/Footer";
+import './principal.css'
 
 
 export default function PaginaPrincipal() {
@@ -7,7 +7,7 @@ export default function PaginaPrincipal() {
     <main>
       <section className="banner">
         <div className="banner-img">
-          <img src="https://i.imgur.com/4X9Q3XV.png" alt="banner" />
+          <img src="https://img.freepik.com/vector-premium/banca-linea-concepto-isometrico-diseno-plano-moderno-banco-electronico-concepto-personas-plantilla-pagina-destino-ilustracion-isometrica-conceptual-diseno-web-grafico_709513-31.jpg" alt="banner" />
         </div>
         <div className="banner-text">
           <h1>!Presatamos a taza cero!</h1>
@@ -16,10 +16,42 @@ export default function PaginaPrincipal() {
         </div>
       </section>
       <section className="dash-boards">
-        
+      <div className="dashboard-grid">
+          <div className="dashboard-item item1">
+            <h2>Panel 1</h2>
+            <p>Texto de ejemplo para el Panel 1</p>
+            <img
+              src="https://via.placeholder.com/150"
+              alt="Imagen de ejemplo"
+            />
+          </div>
+          <div className="dashboard-item item2">
+            <h2>Panel 2</h2>
+            <p>Texto de ejemplo para el Panel 2</p>
+            <img
+              src="https://via.placeholder.com/150"
+              alt="Imagen de ejemplo"
+            />
+          </div>
+          <div className="dashboard-item item3">
+            <h2>Panel 3</h2>
+            <p>Texto de ejemplo para el Panel 3</p>
+            <img
+              src="https://via.placeholder.com/150"
+              alt="Imagen de ejemplo"
+            />
+          </div>
+          <div className="dashboard-item item4">
+            <h2>Panel 4</h2>
+            <p>Texto de ejemplo para el Panel 4</p>
+            <img
+              src="https://via.placeholder.com/150"
+              alt="Imagen de ejemplo"
+            />
+          </div>
+        </div>
       </section>
     </main>
-    <Footer/>
     </>
   )
 }
