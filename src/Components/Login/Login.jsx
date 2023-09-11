@@ -1,5 +1,6 @@
 import { useState } from "react"
 import "./Login.css"
+import { Link } from "react-router-dom";
 
 const Login = () => {
     const [nombreUsuario, setNombreUsuario] = useState();
@@ -27,7 +28,7 @@ const Login = () => {
             <input className="inputContrasenia" type="password" name="contraseña"  placeholder="ingrese su contraseña" value={contraseniaUsuario} onChange={(e) => setContraseniaUsuario(e.target.value)}/>
             <button type="submit" className="botonFormulario">Enviar</button>
         </form>
-        <p className="textoRegistroCuenta">¿No tienes una cuenta? <b>Regístrate.</b></p>
+        <p className="textoRegistroCuenta">¿No tienes una cuenta? <Link to="/signin">Regístrate</Link></p>
     </div>
   )
 }

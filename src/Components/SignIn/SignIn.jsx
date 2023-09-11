@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./SignIn.css";
+import { Link } from "react-router-dom";
 
 const SignIn = () => {
     const [nombreUsuario, setNombreUsuario] = useState();
@@ -26,7 +27,7 @@ const SignIn = () => {
             <input className="inputContrasenia" type="password" name="contraseña"  placeholder="ingrese una contraseña" value={contraseniaUsuario} onChange={(e) => setContraseniaUsuario(e.target.value)}/>
             <button type="submit" className="botonFormulario">Enviar</button>
         </form>
-        <p className="textoRegistroCuenta">¿Ya tienes una cuenta? <b>Inicia sesión.</b></p>
+        <p className="textoRegistroCuenta">¿Ya tienes una cuenta? <Link to="/login">Inicia sesión</Link></p>
     </div>
   )
 }

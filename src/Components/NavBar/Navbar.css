@@ -1,0 +1,98 @@
+.navBar {
+  background-color: #55254e;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 26px;
+}
+.color1 {color: #55254e;}
+.color2 {color: #82366e;}
+.color3 {color: #ca5095;}
+.color4 {color: #ff7dc6;}
+.color5 {color: #ffaef3;}
+
+.navBarLogo {
+  font-size: 24px;
+  margin: 0;
+}
+
+.navBarLogo a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navBarList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/* animacion para subrayado */
+.navBarList li {
+    position: relative;
+    list-style: none;
+    margin-right: 20px; 
+  }
+  
+  .navBarList li a {
+    text-decoration: none;
+    color: #fff; 
+    transition: color 0.3s; 
+  }
+  
+  .navBarList li a:hover {
+    color: #ff7dc6; 
+  }
+  
+  .navBarList li a::before {
+    content: "";
+    position: absolute;
+    bottom: -3px; 
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ff7dc6; 
+    transform: scaleX(0); 
+    transform-origin: left;
+    transition: transform 0.3s ease; 
+  }
+  
+  .navBarList li a:hover::before {
+    transform: scaleX(1); 
+  }
+  
+/* fin de animacion*/
+
+.navBarList li:last-child {
+  margin-right: 0;
+}
+
+.navBarList a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.navBarUsuario {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navBarUsuario li {
+  margin-right: 20px;
+}
+
+.navBarUsuario li :hover {
+    color: #ff7dc6;
+}
+
+.navBarUsuario a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
