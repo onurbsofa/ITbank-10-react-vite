@@ -1,43 +1,61 @@
 #sidebar {
-  width: 250px;
+  width: 200px; /* Reduce width */
   background-color: #55254e;
   color: #fff;
-  padding: 20px 0;
+  padding: 10px 0; /* Reduce padding */
   display: flex;
   flex-direction: column;
   border-radius: 10px;
   margin: 5px;
 }
+.sidebar-toggle-button{
+  background-color: #ca5095;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.sidebar-toggle-button:hover{
+  background-color: #ff7dc6;
+}
 
 .botonPaginaPrincipal {
   display: flex;
-  margin: 9px;
+  margin: 5px; /* Reduce margin */
 }
-.botonPaginaPrincipal button{
+
+.botonPaginaPrincipal button {
   background-color: #ca5095;
-  border-radius: 10px;
+  border-radius: 5px; /* Reduce border-radius */
+  padding: 5px 10px; /* Reduce padding */
 }
-.botonPaginaPrincipal a{
+
+.botonPaginaPrincipal a {
   color: #fff;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 14px; /* Reduce font-size */
 }
-.sidebar-container{
+
+.sidebar-container {
   background-color: #ca5095;
-  margin: 10px;
-  border-radius: 10px;
+  margin: 5px; /* Reduce margin */
+  border-radius: 5px;
 }
+
 .sidebar-component {
   background-color: #55254e;
-  margin: 10px;
-  padding: 10px;
+  margin: 5px; /* Reduce margin */
+  padding: 5px; /* Reduce padding */
   border-radius: 5px;
 }
 
 .component-title {
   text-align: center;
   margin: 0;
-  padding: 10px 0;
+  padding: 5px 0; /* Reduce padding */
 }
 
 #sidebar ul {
@@ -47,7 +65,7 @@
 }
 
 #sidebar li {
-  padding: 8px 0;
+  padding: 5px 0; /* Reduce padding */
   text-align: center;
 }
 
@@ -58,15 +76,15 @@
 
 #content {
   flex: 1;
-  padding: 20px;
+  padding: 10px; /* Reduce padding */
 }
 
 button {
   display: block;
   width: 100%;
-  padding: 8px;
+  padding: 5px; /* Reduce padding */
   border: none;
-  border-radius: 6px;
+  border-radius: 5px;
   background-color: #ca5095;
   color: #fff;
   cursor: pointer;
@@ -75,9 +93,10 @@ button {
 
 h1 {
   margin: 0;
-  padding: 20px 0;
-  font-size: 24px;
+  padding: 10px 0; /* Reduce padding */
+  font-size: 20px; /* Reduce font-size */
 }
+
 @media screen and (max-width: 768px) {
   body {
     flex-direction: column;
@@ -85,14 +104,14 @@ h1 {
 
   #sidebar {
     width: 100%;
-    padding: 10px 0;
+    padding: 5px 0; /* Reduce padding */
   }
 
   .component-title {
-    padding: 5px 0;
+    padding: 3px 0; /* Reduce padding */
   }
 
   #content {
-    padding: 10px;
+    padding: 5px; /* Reduce padding */
   }
 }

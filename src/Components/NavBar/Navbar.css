@@ -24,6 +24,7 @@
   color: #fff;
 }
 
+
 .navBarList {
   list-style: none;
   margin: 0;
@@ -96,3 +97,29 @@
   color: #fff;
   font-weight: bold;
 }
+
+.sidebar-toggle-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* SideBar.css */
+#sidebar {
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #55254e;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+  z-index: 1;
+}
+
+#sidebar.open {
+  width: 250px;
+}
+
