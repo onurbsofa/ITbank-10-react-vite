@@ -1,14 +1,34 @@
 #sidebar {
   width: 250px;
-  background-color: #333;
+  background-color: #55254e;
   color: #fff;
   padding: 20px 0;
   display: flex;
   flex-direction: column;
+  border-radius: 10px;
+  margin: 5px;
 }
 
+.botonPaginaPrincipal {
+  display: flex;
+  margin: 9px;
+}
+.botonPaginaPrincipal button{
+  background-color: #ca5095;
+  border-radius: 10px;
+}
+.botonPaginaPrincipal a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
+}
+.sidebar-container{
+  background-color: #ca5095;
+  margin: 10px;
+  border-radius: 10px;
+}
 .sidebar-component {
-  background-color: #445;
+  background-color: #55254e;
   margin: 10px;
   padding: 10px;
   border-radius: 5px;
@@ -31,9 +51,6 @@
   text-align: center;
 }
 
-#sidebar li:hover {
-  background-color: #444;
-}
 #sidebar li a {
   color: #fff;
   text-decoration: none;
@@ -49,14 +66,11 @@ button {
   width: 100%;
   padding: 8px;
   border: none;
-  background-color: #333;
+  border-radius: 6px;
+  background-color: #ca5095;
   color: #fff;
   cursor: pointer;
   transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #555;
 }
 
 h1 {
