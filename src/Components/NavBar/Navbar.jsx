@@ -13,6 +13,7 @@ const Navbar = () => {
                 <li><Link to="/cuenta">Tarjetas y Cuentas</Link></li>
                 <li><Link to="/ayuda">Centro de ayuda</Link></li>
                 <li><Link to="/beneficios">Beneficios</Link></li>
+                <li><Link to="/conversor">conversor de moneda</Link></li>
             </ul>
         </div>
         <div>

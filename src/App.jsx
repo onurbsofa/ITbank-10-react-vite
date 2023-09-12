@@ -11,6 +11,7 @@ import Privacy from './Components/Footer/Privacy';
 import Terms from './Components/Footer/Terms';
 import PaginaPrincipal from "./Components/Pagina-Principal/PaginaPrincipal";
 import Navbar from "./Components/NavBar/Navbar";
+import Conversor from "./Components/Services/Conversor";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
         <Route path="/faq" element={<Faq />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/terms" element={<Terms />} />
+        <Route path="/conversor" element={<Conversor />} />
       </Routes>
       <Footer/>
     </Router>
