@@ -14,16 +14,22 @@
 .color4 {color: #ff7dc6;}
 .color5 {color: #ffaef3;}
 
+.itbankLogo{
+  padding: 10px;
+}
+.itbankboton{
+  background-color: transparent;
+  border: none;
+}
+
 .navBarLogo {
   font-size: 24px;
-  margin: 0;
-}
-
-.navBarLogo a {
-  text-decoration: none;
+  border-radius: 5px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
   color: #fff;
 }
-
 
 .navBarList {
   list-style: none;
@@ -48,8 +54,11 @@
   .navBarList li a:hover {
     color: #ff7dc6; 
   }
+  .iconoUsuario:hover{
+    fill:#ff7dc6;
+  }
   
-  .navBarList li a::before {
+  .navBarList li:first-child a::before {
     content: "";
     position: absolute;
     bottom: -3px; 
@@ -62,15 +71,12 @@
     transition: transform 0.3s ease; 
   }
   
-  .navBarList li a:hover::before {
+  .navBarList li:first-child a:hover::before {
     transform: scaleX(1); 
   }
   
 /* fin de animacion*/
 
-.navBarList li:last-child {
-  margin-right: 0;
-}
 
 .navBarList a {
   text-decoration: none;
@@ -98,12 +104,18 @@
   font-weight: bold;
 }
 
-.sidebar-toggle-button {
+.iconoUsuario{
+  fill: #fafafa;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+}
+/* .sidebar-toggle-button {
   background: transparent;
   border: none;
   cursor: pointer;
   font-size: 16px;
-}
+} */
 
 /* SideBar.css */
 #sidebar {

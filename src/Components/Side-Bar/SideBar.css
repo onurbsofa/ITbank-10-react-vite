@@ -8,6 +8,10 @@
   border-radius: 10px;
   margin: 5px;
 }
+.sidebar-itbank{
+  display: flexbox;
+  text-align: center;
+}
 .sidebar-toggle-button{
   background-color: #ca5095;
   border-radius: 5px;
@@ -26,12 +30,13 @@
   display: flex;
   margin: 5px; /* Reduce margin */
 }
-
+/* 
 .botonPaginaPrincipal button {
   background-color: #ca5095;
-  border-radius: 5px; /* Reduce border-radius */
-  padding: 5px 10px; /* Reduce padding */
-}
+  border-radius: 5px; Reduce border-radius 
+  padding: 5px 10px; Reduce padding 
+} 
+*/
 
 .botonPaginaPrincipal a {
   color: #fff;
@@ -79,7 +84,7 @@
   padding: 10px; /* Reduce padding */
 }
 
-button {
+.botonesSideBar {
   display: block;
   width: 100%;
   padding: 5px; /* Reduce padding */
@@ -90,6 +95,11 @@ button {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+.botonesSideBar:hover{
+  background-color: #fff;
+  color:#ca5095;
+}
+
 
 h1 {
   margin: 0;
