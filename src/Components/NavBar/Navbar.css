@@ -22,6 +22,7 @@
   border: none;
 }
 
+
 .navBarLogo {
   font-size: 24px;
   border-radius: 5px;
@@ -29,6 +30,10 @@
   border: none;
   cursor: pointer;
   color: #fff;
+}
+
+.navBarLogo:hover {
+  color: #ff7dc6;
 }
 
 .navBarList {
