@@ -1,6 +1,7 @@
 
 import { Link } from 'react-router-dom';
 import './SideBar.css';
+import NameComponent from './NameComponent';
 
 const SideBar = ({ isOpen, toggleSidebar }) => {
 
@@ -13,8 +14,7 @@ const SideBar = ({ isOpen, toggleSidebar }) => {
         </div>
       <section className="sidebar-container">
         <div className="sidebar-component">
-          <h3 className="component-title">nombre del usuario</h3>
-          <img src="" alt=""></img>
+          <NameComponent className="component-title" isLoggedIn={true} username={'bruno'} />
         </div>
         <div className="sidebar-component">
           <h3 className="component-title">Menú</h3>
