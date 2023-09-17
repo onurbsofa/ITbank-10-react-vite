@@ -17,6 +17,14 @@ El proyecto consiste en la creación de un sistema de Home Banking para el banco
 - Consultar movimientos
 - Conversió n de moneda
 
+## Secciones:
+- Pagina de inicio
+- Pagina de registro
+- Pagina de login
+- header
+- footer
+- SideBar
+
 ## Tecnologia:
 ### React + Vite
 
