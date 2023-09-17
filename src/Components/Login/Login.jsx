@@ -3,13 +3,15 @@ import "./Login.css"
 import { Link } from "react-router-dom";
 
 const Login = () => {
-    const [nombreUsuario, setNombreUsuario] = useState();
+    const [nombreUsuario, setNombreUsuario] = useState("");
     const [contraseniaUsuario, setContraseniaUsuario] = useState();
 
     const handleSubmit = (e) =>{
         e.preventDefault();
         if(nombreUsuario.length >= 5 && nombreUsuario.length <=12){
             alert(`Bienvenido ${nombreUsuario}`);
+        } else if (nombreUsuario.length === 0){
+            alert("su usuario debe contener entre 5 y 12 letras.");
         } else {
             alert("su usuario debe contener entre 5 y 12 letras.");
         }
